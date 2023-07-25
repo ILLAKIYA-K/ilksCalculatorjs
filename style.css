@@ -144,3 +144,13 @@ body{
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4)
     
 } 
+
+
+@media (max-width: 600px){
+    .color{
+        width: 250px;
+        margin-top: 50px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
