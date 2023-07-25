@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+  <div class="color">
+    <h1>Illaksh Calculator</h1>
+
+   <form>
+   <div class="display">
+    <input type="text" class="value" name="display">
+</div>
+
+<div class="grid">
+<div class="first--row row">
+  <input type="button" value="C" class="eig" onclick ="display.value = ' ' ">
+  <input type="button"  value="E" class="eig" onclick ="display.value = display.value.toString().slice(0,-1) ">
+  <input type="button" value="%" class="eigti" onclick ="display.value += '%' ">
+  <input type="button" value="/" class="eigt" onclick ="display.value += '/' ">
+</div>
+
+<div class="second--row row">
+  <input type="button" value="7" class="ei" onclick ="display.value += '7' ">
+  <input type="button"  value="8" class="ei" onclick ="display.value += '8' ">
+  <input type="button" value="9" class="ei" onclick ="display.value += '9' ">
+  <input type="button" value="*" class="eig" onclick ="display.value += '*' ">
+</div>
+
+<div class="third--row row">
+  <input type="button" value="4" class="ei" onclick ="display.value += '4' ">
+  <input type="button"  value="5" class="ei" onclick ="display.value += '5' ">
+  <input type="button" value="6" class="ei" onclick ="display.value += '6' ">
+  <input type="button" value="-" class="eig" onclick ="display.value += '-' ">
+</div>
+
+<div class="fourth--row row">
+  <input type="button" value="1" class="ei" onclick ="display.value += '1' ">
+  <input type="button"  value="2" class="ei" onclick ="display.value += '2' ">
+  <input type="button" value="3" class="ei" onclick ="display.value += '3' ">
+  <input type="button" value="+" class="eig" onclick ="display.value += '+' ">
+</div>
+
+<div class="fifth--row row">
+  <input type="button" value="#" class="ei" onclick ="display.value += '#' ">
+  <input type="button"  value="0" class="ei" onclick ="display.value += '0' ">
+  <input type="button" value="." class="ei" onclick ="display.value += '.' ">
+  <input type="button" value="=" class="ans" onclick ="display.value = eval(display.value) ">
+</div>
+
+
+</div>
+</form>
+
+<div class="two"></div>
+</div>
+</div>
+  </body>
+
+  <!-- <script src="script.js"></script> -->
+</html>

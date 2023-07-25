@@ -1,0 +1,146 @@
+h1{
+    font-size: 32px;
+    /* width: 220px; */
+    margin-bottom: 0.2px;
+    color: orangered;
+    width: 236px;
+    background-color: black;
+    padding-top: 34px;
+    padding-left: 32px;
+   padding-right: 14px;
+}
+
+.first--row{
+    padding-top: 24px;
+}
+.fifth--row{
+    padding-bottom: 24px;
+}
+
+.row{
+   font-size: 32px;
+   display: flex;
+   gap: 24px;
+   padding-left: 32px;
+   padding-right: 20px;
+   /* margin-left: 32px; */
+   text-decoration: none;
+   border: none;
+   background-color: black;
+   width: 230px;
+}
+
+
+
+.first--row {
+   border-top: 1px dotted orange;
+}
+
+
+.ans{
+    border: none;
+    margin-left: 12px;
+    background-color: orangered;
+    color: white;
+    font-size: 29px; 
+    border-radius: 46%;
+    cursor: pointer
+
+}
+
+.ans:hover{
+    background-color: burlywood;  
+}
+.eig{
+   border: none;
+  padding: 12px;
+  background-color: black;
+  color: orangered;
+  font-size: 21px;
+  cursor: pointer
+}
+
+.eig:hover{
+    background-color: burlywood;  
+}
+
+.ei{
+    border: none;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.ei:hover{
+    background-color: burlywood;
+   
+}
+
+.eigt{
+    border: none;
+    padding: 12px;
+   /* p-right: 10px;
+   margin-left: 10px; */
+   background-color: black;
+   color: orangered;
+   font-size: 21px;
+   cursor: pointer
+ }
+
+ .eigt:hover{
+    background-color: burlywood;  
+}
+
+ .eigti{
+    border: none;
+   padding-right: 6px;
+   padding-left: 6px;
+   background-color: black;
+   color: orangered;
+   font-size: 21px;
+   cursor: pointer
+ }
+ 
+ .eigti:hover{
+    background-color: burlywood;  
+}
+/* .grid{
+    display: grid;
+    grid-template-rows:auto auto auto auto ;
+    width: 240px;
+} */
+
+.eigh{
+    border: none;
+    padding: 12px;
+   
+}
+
+.value{
+    border: none;
+    background-color: black;
+    width: 232px;
+    height: 70px;
+    color: white;
+    font-size: 32px;
+    padding-left: 32px;
+   padding-right: 18px;
+}
+
+body{
+    /* max-width: 600px; */
+  
+   /* background-color: bisque; */
+   background: linear-gradient(70deg, #fdcd3b 60%, #ffed4b 60%);
+}
+
+ .color{
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 300px;
+    
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4)
+    
+} 
